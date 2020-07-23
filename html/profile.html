@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@200;300;400;600;700;900&display=swap" rel="stylesheet">
+    <title>Profile</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+
+            <li><a href="home.html">Social Housing Commission</a></li>
+            <li><a href="signup.html">Join</a></li>
+            <li><a href="faq.html">F.a.q.</a></li>
+
+            <li class="last">
+                <form>
+                    <input type="email" size=13 placeholder="Email" name="email">
+                    <input type="password" size=13 placeholder="Password" name="password">
+                    <button type="submit">Login</button>
+                </form>
+            </li>
+        </ul>
+    </nav>
+
+
+    <section>
+        <h1>
+            Profile
+        </h1>
+
+        <p>Email: You@email.com</p>
+        <p>Balance: $100<br><button><a href={{url_for('addBalance')}}>Add Balance?</a></button>
+        </p>
+
+        <p>Subscriptions: [PENGUIN:$5/Month,MIT:$20/Month,HARVARD:$22/month,ETC,WHATEVER]
+            <br><button>Add subscription?</button>
+        </p>
+    </section>
+    <h1>
+
+    </h1>
+</body>
+
+</html>
